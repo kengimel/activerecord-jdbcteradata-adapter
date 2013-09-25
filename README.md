@@ -8,10 +8,10 @@ This is a driver that lets you use Teradata with ActiveRecord.
 
 In your `Gemfile` add
 
-    gem 'activerecord-jdbcteradata-driver'
+    gem activerecord-jdbcteradata-adapter'
 
 In `database.yml` add something like
- 
+
     development:
       adapter: teradata
       username: user
